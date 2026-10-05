@@ -1,0 +1,70 @@
+/*
+Name: Media Queries
+Updated: 26.03.01 */
+
+/*
+X-Small Screen < 576px
+============================================= */
+@media (max-width: 575.98px) {
+	.pge-wrapper { padding: 0 20px 40px; }              /* top left-right bottom */
+	.inn-wrapper { padding: 0 20px; }                   /* top-bottom left-right */
+	.img-wrapper { flex: 0 0 calc((100% - 10px) / 2); } /* take the parent width (100%), subtract the total gap space of 10px, then divide by two */
+}
+
+/*
+Small Screen ≥ 576px
+============================================= */
+@media (min-width: 576px) {
+	.pge-wrapper { padding: 0 20px 60px; }              /* top left-right bottom */
+	.inn-wrapper { padding: 0 20px; }                   /* top-bottom left-right */
+	.img-wrapper { flex: 0 0 calc((100% - 20px) / 3); } /* take the parent width (100%), subtract the total gap space of 20px, then divide by three */
+}
+
+/*
+Medium Screen ≥ 768px
+============================================= */
+@media (min-width: 768px) {
+	.pge-wrapper { padding: 0 60px 80px; }              /* top left-right bottom */
+	.inn-wrapper { padding: 0 60px; }                   /* top-bottom left-right */
+}
+
+/*
+Large Screen ≥ 992px
+============================================= */
+@media (min-width: 992px) {
+	.pge-wrapper { padding: 0 100px 100px; }            /* top left-right bottom */
+	.inn-wrapper { padding: 0 100px; }                  /* top-bottom left-right */
+	.img-wrapper { flex: 0 0 calc((100% - 30px) / 4); } /* take the parent width (100%), subtract the total gap space of 30px, then divide by four */
+}
+
+/* ========================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
